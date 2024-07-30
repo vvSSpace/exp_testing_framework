@@ -1,0 +1,12 @@
+service:
+  dm_api_account: http://192.168.2.167:5051
+  mailhog: http://192.168.2.167:5025
+  grpc: 192.168.2.167:5052
+
+database:
+  dm3_5:
+    host: 192.168.2.167
+    port: 5432
+    database: dm3.5
+    user: postgres
+    password: admin
